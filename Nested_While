@@ -1,4 +1,7 @@
+'by:Julieta Rojas
+
 Public Sub Main()
+
 Dim rows, columns As Integer
 While rows <= 4
   columns = 1
@@ -9,4 +12,5 @@ While rows <= 4
   Print ""
   rows = rows + 1
 Wend
+
 End
