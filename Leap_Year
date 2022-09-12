@@ -1,3 +1,5 @@
+'by:Julieta Rojas
+
 Public Sub Main()
 
 Dim p, q, r As Boolean
