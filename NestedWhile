@@ -1,0 +1,12 @@
+Public Sub Main()
+Dim rows, columns As Integer
+While rows <= 4
+  columns = 1
+  While columnas <= rows
+    Print "*";
+    columns = columns + 1
+  Wend
+  Print ""
+  rows = rows + 1
+Wend
+End
