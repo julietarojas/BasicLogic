@@ -1,0 +1,25 @@
+Public Sub Main()
+Dim x, opo, n As Integer
+Randomize
+x = Int(Rnd(1, 10 + 1))
+Print x
+opo = 1
+
+While opo <= 3 Or n <> x
+  Print "Give me a number"
+  Input n
+  If n = x Then
+    Print "You were right!!"
+    opo = 4
+Else
+   opo = opo + 1
+   Print "You have left "; 4 - opo
+   End If
+If opo > 3 And n <> x Then
+   Print "You lost :( "
+   n = x
+  End If
+   
+Wend
+
+End
