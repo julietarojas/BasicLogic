@@ -1,0 +1,19 @@
+Public Sub Main()
+
+Dim p, q, r As Boolean
+Dim a As Integer
+Print "Give me year"
+Input a
+
+p = (a Mod 4 = 0)
+q = (a Mod 100 = 0)
+r = (a Mod 400 = 0)
+
+If (p And Not q) Or r Then
+  Print "It's leap year"
+Else 
+  Print "It's not leap year"
+  
+Endif
+
+End
