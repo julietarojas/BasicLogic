@@ -1,4 +1,7 @@
+'by:Julieta Rojas
+
 Public Sub Main()
+
 Dim x, opo, n As Integer
 Randomize
 x = Int(Rnd(1, 10 + 1))
