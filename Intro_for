@@ -1,0 +1,12 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim x As Float
+
+For x = -2.5 To 2.5 Step 0.5
+  Print x
+  Wait 1
+Next
+
+End
