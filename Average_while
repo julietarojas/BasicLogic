@@ -1,0 +1,23 @@
+'by:Julieta Rojas
+
+PublicSubMain()
+
+Dim average, x, n, i As Float
+
+Print "Give me the amount of numbers"
+input n
+
+x = 1
+
+While x <= n
+  Print "give me number"
+  Input i
+average = average + i
+x = x + 1
+Wend
+
+average = average / n
+
+  Print "average = "; average
+  
+End
