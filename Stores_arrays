@@ -1,0 +1,39 @@
+'by:Julieta Rojas
+
+PublicSubMain()
+
+Dim pos, x, store, month As Integer
+Dim greater As Float
+Dim sales As New Float[3, 6]
+
+For store = 0 To 2
+  For month = 0 To 5
+    Print "give me store information"; branch + 1; " of the month "; month + 1
+    Sales input [store, month]
+  Next
+Next
+
+If sales[0, 2] > sales[1, 2] And sales[0, 2] > sales[2, 2] Then
+  Print "Store 1 sold greater in month 3"
+End If
+
+If sales[1, 2] > sales[0, 2] And sales[1, 2] > sales[2, 2] Then
+   Print "Store 1 sold greater in month 3"
+Endif
+
+If sales[2, 2] > sales[2, 2] And sales[2, 2] > sales[2, 2] Then
+  Print "Store 1 sold greater in month 3"
+End If
+
+greater = sales[1, 0]
+
+For x = 1 To 5
+  If sales[1, x] > greater Then
+    greater = sales[1, x]
+    pos = x
+  Endif
+Next
+
+  Print ""
+  
+End
