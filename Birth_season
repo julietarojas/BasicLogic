@@ -1,0 +1,69 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+Dim month, day As Integer
+
+Print "give me day (1 -31)"
+input day
+
+Print "give me month (1-12)"
+input month
+
+If month >= 1 And month <= 12 Then
+
+Select Case month
+
+  Case 4, 5
+    Print "you were born in spring"
+    
+  Case 7, 8
+    Print "you were born in summer"
+    
+  Case 10, 11
+    Print "you were born in autumn"
+    
+  Case 1, 2
+    Print "you were born in winter"
+    
+  Case Else
+  
+    If month = 3 Then
+       If day < 20 Then
+         print "winter"
+       else
+          print "spring"
+       End If
+     End If
+     
+        If month = 6 Then
+       If day < 20 Then
+         print "spring"
+       else
+          print "summer"
+       End If
+     End If
+       
+      If month = 9 Then
+       If day < 20 Then
+         print "summer"
+       else
+          Print "autumn"
+       End If
+     End If
+       
+        If month = 12 Then
+       If day < 22 Then
+         Print "autumn"
+       else
+          print "winter"
+       End If
+     End If
+End Select
+
+else
+
+  Print "invalid month"
+  
+  End If
+  
+End
