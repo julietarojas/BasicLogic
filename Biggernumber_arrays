@@ -1,0 +1,22 @@
+Public Sub Main()
+
+Dim numbers As New Float[7]
+Dim bigger As Float
+Dim x As Integer
+
+For x = 0 To 6
+  Print "Give me number"
+  input numbers[x]
+Next
+
+largest = numbers[0]
+
+For x = 1 To 6
+  If numbers[x] > bigger Then
+    bigger = numbers[x]
+  endif
+Next
+
+Print "the bigger number is "; bigger
+
+End
