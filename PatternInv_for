@@ -1,0 +1,14 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim rows, columns As Integer
+
+For rows = 1 To 4
+  For columns = 1 To 5 - rows
+    Print "*";
+  Next
+  Print " "
+Next
+
+End
