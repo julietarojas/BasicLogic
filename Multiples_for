@@ -1,0 +1,11 @@
+Public Sub Main()
+
+Dim x As Integer
+
+For x = 1 To 25
+  If x Mod 4 = 0 Then
+  Print x
+  End If
+Next
+
+End
