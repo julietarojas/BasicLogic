@@ -1,0 +1,81 @@
+'by:Julieta Rojas
+
+PublicSubMain()
+
+Dim month, day As Integer
+
+Print "Give me your day of birth (1-31)"
+input day
+
+Print "Give me your birth month (1-12)"
+input month
+
+ If month >= 1 And month <= 12 Then
+
+Select Case month
+  
+  Case Else
+  If month = 1 And day >= 21 Or month = 2 And day <= 18 Then
+    Print "Your zodiac sign is Aquarius"
+  endif
+  
+   
+  If month = 2 And day >= 19 Or month = 3 And day <= 20 Then
+    Print "Your zodiac sign is Pisces"
+  endif
+  
+   
+  If month = 3 And day >= 21 Or month = 4 And day <= 20 Then
+    Print "Your zodiac sign is Aries"
+  endif
+  
+   
+  If month = 4 And day >= 21 Or month = 5 And day <= 20 Then
+    Print "Your zodiac sign is Taurus"
+  endif
+  
+   
+  If month = 5 And day >= 21 Or month = 6 And day <= 21 Then
+    Print "Your zodiac sign is Gemini"
+  endif
+  
+
+  If month = 6 And day >= 22 Or month = 7 And day <= 22 Then
+    Print "Your zodiac sign is Cancer"
+  endif
+  
+  
+   
+  If month = 7 And day >= 23 Or month = 8 And day <= 22 Then
+    Print "Your zodiac sign is Leo"
+  endif
+  
+  
+   
+  If month = 8 And day >= 23 Or month = 9 And day <= 22 Then
+    Print "Your zodiac sign is Virgo"
+  endif
+  
+   
+  If month = 9 And day >= 23 Or month = 10 And day <= 22 Then
+    Print "Your zodiac sign is Libra"
+  endif
+  
+  
+  If month = 10 And day >= 23 Or month = 11 And day <= 22 Then
+    Print "Your zodiac sign is Scorpio"
+  endif
+  
+  
+ If month = 11 And day >= 23 Or month = 12 And day <= 21 Then
+    Print "Your zodiac sign is Sagittarius"
+  endif
+  
+  
+ If month = 12 And day >= 22 Or month = 1 And day <= 20 Then
+    Print "Your zodiac sign is Capricorn"
+  endif
+      
+End Select
+End If
+end
