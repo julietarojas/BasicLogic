@@ -1,0 +1,16 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim hours, minutes, seconds As Integer
+
+For hours = 0 To 23
+ For minutes = 0 To 59
+   For seconds = 0 To 59
+        Print hours; ":"; minutes; ":"; seconds
+           Wait 1
+    Next
+ Next
+Next
+
+End
