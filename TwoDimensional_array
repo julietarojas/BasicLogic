@@ -1,0 +1,22 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim w As New Integer[3, 4]
+
+Dim rows, cols As Integer
+For rows = 0 To 2
+  For cols = 0 To 3
+    Print "dame num"
+    Input w[rows, cols]
+  Next
+Next
+
+For rows = 0 To 2
+  For cols = 0 To 3
+    Print w[rows, cols]; " ";
+  Next
+  Print ""
+Next
+
+End
