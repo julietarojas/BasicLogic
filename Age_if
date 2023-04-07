@@ -1,0 +1,19 @@
+
+
+Public Sub Main()
+
+Dim age As Integer
+
+Print "Give me your age"
+Input age
+
+If age <= 16 Then
+  Print "You are a kid"
+  
+  Else If age >= 17 And age <= 25 Then
+    Print "You are young"
+    
+    Else If age >= 25 Then
+      Print "You are an adult"
+Endif
+End
