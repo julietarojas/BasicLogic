@@ -1,0 +1,23 @@
+'by: Julieta Rojas
+
+Public Sub Main()
+
+Dim X As Integer
+
+Print "Give me x"
+Input x
+
+Select Case x
+
+  Case 1, 11, 22
+     Print "it is 1 or 11 or 22"
+  Case 2, 44, 55
+     Print "it is 2 or 44 or 55"
+  Case 3, 100, 200
+     Print "it is 3 or 100 or 200"
+  Case Else 
+     Print "is another number"  
+     
+End Select
+
+End
