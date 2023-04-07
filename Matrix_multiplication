@@ -1,0 +1,43 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim a As New Float[3, 3]
+Dim b As New Float[3, 3]
+Dim c As New Float[3, 3]
+Dim f, cols As Integer
+
+For f = 0 To 2
+  For cols = 0 To 2
+   Print "give me row"; f+1; "and column"; cols + 1; "from matrix A"
+   Input a[f, cols]
+  Next
+ Next
+ 
+ For f = 0 To 2
+  For cols = 0 To 2
+   Print "give me row"; f+1; "and column"; cols + 1; "from matrix A"
+   Input b[f, cols]
+  Next
+ Next
+ 
+c[0, 0] = a[0, 0] * b[0, 0] + a[0, 1] * b[1, 0] + a[0, 2] * b[2, 0]
+c[0, 1] = a[0, 0] * b[0, 1] + a[0, 1] * b[1, 1] + a[0, 2] * b[2, 1]
+c[0, 2] = a[0, 0] * b[0, 2] + a[0, 1] * b[1, 2] + a[0, 2] * b[2, 2]
+
+c[1, 0] = a[1, 0] * b[0, 0] + a[1, 1] * b[1, 0] + a[1, 2] * b[2, 0]
+c[1, 1] = a[1, 0] * b[0, 1] + a[1, 1] * b[1, 1] + a[1, 2] * b[2, 1]
+c[1, 2] = a[1, 0] * b[0, 2] + a[1, 1] * b[1, 2] + a[1, 2] * b[2, 2]
+
+c[2, 0] = a[2, 0] * b[0, 0] + a[2, 1] * b[1, 0] + a[2, 2] * b[2, 0]
+c[2, 1] = a[2, 0] * b[0, 1] + a[2, 1] * b[1, 1] + a[2, 2] * b[2, 1]
+c[2, 2] = a[2, 0] * b[0, 2] + a[2, 1] * b[1, 2] + a[2, 2] * b[2, 2]
+
+ For f = 0 To 2
+    For cols = 0 To 2
+      Print c[f, c]; " ";
+     Next
+      Print ""
+ Next
+ 
+End
