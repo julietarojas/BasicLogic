@@ -1,0 +1,16 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim dx, li, ls, i, x As Float
+dx = 0.0001
+li = -2
+ls = 2
+
+For x = li To ls Step dx
+  i = i + ((x ^ 4 + 2) * dx)
+Next
+
+Print i
+
+End
