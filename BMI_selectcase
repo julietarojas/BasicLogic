@@ -1,0 +1,36 @@
+'by:Julieta Rojas
+
+PublicSubMain()
+
+Dim pounds, inches, kg, mts As Float
+Dim imc As Float
+Dim option As String
+
+Print "Do you use the English system (YES/NO)?"
+Input option
+
+Select Case option
+
+  Case "YES", "yes"
+   Print "give me weight in pounds"
+   Pounds
+   Print "give me your height in inches"
+   Inches
+   bmi = 703 * (pounds/inches^2)
+   print bmi
+   
+  Case "NO", "no"
+    Print "give me weight in kg"
+    Input kg
+    Print "give me height in meters"
+    Input mts
+    bmi = kg / mts ^ 2
+    Print bmi
+    
+  Case Else
+  
+  Print "invalid option"
+
+End Select
+
+End
