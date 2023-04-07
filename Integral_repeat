@@ -1,0 +1,18 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim i, dx, li, ls, x As Float
+li = -2
+ls = 2
+dx = 0.0001
+x = li
+
+Repeat
+  i = i + ((x * 4 + 2) * dx)
+  x = x + dx
+Until x > ls
+
+Print i
+
+End
