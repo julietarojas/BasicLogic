@@ -1,6 +1,6 @@
 'by:Julieta Rojas
 
-PublicSubMain()
+Public Sub Main()
 
 Dim average, x, n, i As Float
 
