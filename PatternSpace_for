@@ -1,0 +1,17 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim cols, rows As Integer
+
+For rows = 1 To 4
+  For cols = 1 To 4 - rows
+     Print " ";
+  Next
+    For cols = 1 To 2 * rows - 1
+       Print "*";
+    Next
+       Print ""
+Next
+
+End
