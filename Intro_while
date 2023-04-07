@@ -1,0 +1,13 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim x As Integer
+x = 1
+
+While x <= 10
+  Print x
+  x = x + 1
+Wend
+
+End
