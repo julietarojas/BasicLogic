@@ -1,0 +1,23 @@
+'by:Julieta Rojas
+
+PublicSubMain()
+
+Dim month As Integer
+
+Print "give me the month (1 - January, 2 - February, etc)"
+input month
+
+Select Case month
+
+  Case 4, 6, 9, 11
+    Print "you have 30 days"
+  Case 1, 3, 5, 7, 8, 10, 12
+    Print "you have 31 days"
+  Case 2
+    Print "has 28 or 29 days"
+  Case Else
+    Print "invalid month"
+    
+   End Select
+
+End
