@@ -1,0 +1,29 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim a,b,c As Integer
+
+Print "Give me to"
+input to
+
+Print "Give me b"
+Input b
+
+Print "Give me c"
+Input c
+
+If a <> b And b <> c Then
+  Print"0"
+End If
+
+ If a = b And a = c Then
+  Print "20"
+Endif
+
+ If a = b Then
+  Print "10"
+Endif
+
+
+End
