@@ -1,0 +1,16 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim x, tabla As Integer
+
+x = 1
+tabla = 7
+
+While x <= 10
+  Print tabla; "x"; x; "="; tabla * x
+  x = x + 1
+Wend
+
+
+End
