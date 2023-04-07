@@ -1,0 +1,16 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim i, sumatoria As Float
+
+i = 1
+
+Repeat
+  sumatoria = sumatoria + (1 / i * 2)
+i = i + 1
+Until i > 100
+
+Print "la sumatoria es = "; sumatoria
+
+End
