@@ -1,0 +1,28 @@
+'by:Julieta Rojas
+
+Public Sub Main()
+
+Dim a As New Integer[10]
+Dim t, x, y As Integer
+
+For x = 0 To 9
+  Print "give a number"
+  Input a[x]
+  Next
+  
+  For x = 1 To 10
+    For y = 0 To 8
+      If a[y] > a[y + 1] Then
+        t = a[y]
+        a[y + 1] = t
+      Endif
+    Next
+  Next
+  
+  Print "sorted out"
+  
+  For x = 0 To 9
+    Print a[x]
+  Next
+  
+End
